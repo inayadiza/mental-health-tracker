@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-tuzx=o6c^74jev!9!r7b!n40&@*1&xnu9n3a8r9jb45h56bd&4
 
 # SECURITY WARNING: don't run with debug turned on in production!
 PRODUCTION = os.getenv("PRODUCTION", False)
-DEBUG = not PRODUCTION
+DEBUG = False
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "waode-inaya-mentalhealthtracker4.pbp.cs.ui.ac.id"]
 
@@ -58,7 +58,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [BASE_DIR / 'templates'],
-        'APP_DIRS': False,
+        'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
