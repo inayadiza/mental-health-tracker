@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-tuzx=o6c^74jev!9!r7b!n40&@*1&xnu9n3a8r9jb45h56bd&4
 PRODUCTION = os.getenv("PRODUCTION", False)
 DEBUG = not PRODUCTION
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "waode-inaya-mentalhealthtracker4.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "waode-inaya-mentalhealthtracker.pbp.cs.ui.ac.id"]
 
 
 # Application definition
@@ -125,4 +125,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://waode-inaya-mentalhealthtracker4.pbp.cs.ui.ac.id", "https://waode-inaya-mentalhealthtracker4.pbp.cs.ui.ac.id"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://pbp.cs.ui.ac.id/waode.inaya/mentalhealthtracker", "hhttp://pbp.cs.ui.ac.id/waode.inaya/mentalhealthtracker"]
